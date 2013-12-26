@@ -1,0 +1,28 @@
+
+#ifndef EXCLUDE_MIF_SUPPORT
+#define EXCLUDE_MIF_SUPPORT
+#endif
+
+#ifndef EXCLUDE_PNM_SUPPORT
+#define EXCLUDE_PNM_SUPPORT
+#endif
+
+#ifndef EXCLUDE_BMP_SUPPORT
+#define EXCLUDE_BMP_SUPPORT
+#endif
+
+#ifndef EXCLUDE_RAS_SUPPORT
+#define EXCLUDE_RAS_SUPPORT
+#endif
+
+#ifndef EXCLUDE_JPG_SUPPORT
+#define EXCLUDE_JPG_SUPPORT
+#endif
+
+#ifndef EXCLUDE_PGX_SUPPORT
+#define EXCLUDE_PGX_SUPPORT
+#endif
+
+#ifdef HAVE_UNISTD_H
+#undef HAVE_UNISTD_H
+#endif

@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project2.exe"/>
+    <OBJFILES value="Unit1.obj ..\src\appl\jasper.obj ..\src\libjasper\jp2\jp2_enc.obj 
+      ..\src\libjasper\jp2\jp2_cod.obj ..\src\libjasper\jp2\jp2_dec.obj 
+      ..\src\libjasper\base\jas_version.obj ..\src\libjasper\base\jas_cm.obj 
+      ..\src\libjasper\base\jas_debug.obj ..\src\libjasper\base\jas_getopt.obj 
+      ..\src\libjasper\base\jas_icc.obj ..\src\libjasper\base\jas_iccdata.obj 
+      ..\src\libjasper\base\jas_image.obj ..\src\libjasper\base\jas_init.obj 
+      ..\src\libjasper\base\jas_malloc.obj ..\src\libjasper\base\jas_seq.obj 
+      ..\src\libjasper\base\jas_stream.obj ..\src\libjasper\base\jas_string.obj 
+      ..\src\libjasper\base\jas_tmr.obj ..\src\libjasper\base\jas_tvp.obj 
+      ..\src\libjasper\bmp\bmp_cod.obj ..\src\libjasper\bmp\bmp_dec.obj 
+      ..\src\libjasper\bmp\bmp_enc.obj ..\src\libjasper\jpc\jpc_bs.obj 
+      ..\src\libjasper\jpc\jpc_cs.obj ..\src\libjasper\jpc\jpc_dec.obj 
+      ..\src\libjasper\jpc\jpc_enc.obj ..\src\libjasper\jpc\jpc_math.obj 
+      ..\src\libjasper\jpc\jpc_mct.obj ..\src\libjasper\jpc\jpc_mqcod.obj 
+      ..\src\libjasper\jpc\jpc_mqdec.obj ..\src\libjasper\jpc\jpc_mqenc.obj 
+      ..\src\libjasper\jpc\jpc_qmfb.obj ..\src\libjasper\jpc\jpc_t1cod.obj 
+      ..\src\libjasper\jpc\jpc_t1dec.obj ..\src\libjasper\jpc\jpc_t1enc.obj 
+      ..\src\libjasper\jpc\jpc_t2cod.obj ..\src\libjasper\jpc\jpc_t2dec.obj 
+      ..\src\libjasper\jpc\jpc_t2enc.obj ..\src\libjasper\jpc\jpc_tagtree.obj 
+      ..\src\libjasper\jpc\jpc_tsfb.obj ..\src\libjasper\jpc\jpc_util.obj 
+      ..\src\libjasper\jpg\jpg_val.obj ..\src\libjasper\jpg\jpg_dec.obj 
+      ..\src\libjasper\jpg\jpg_dummy.obj ..\src\libjasper\jpg\jpg_enc.obj 
+      ..\src\libjasper\ras\ras_cod.obj ..\src\libjasper\ras\ras_dec.obj 
+      ..\src\libjasper\ras\ras_enc.obj ..\src\libjasper\mif\mif_cod.obj 
+      ..\src\libjasper\pgx\pgx_cod.obj ..\src\libjasper\pgx\pgx_dec.obj 
+      ..\src\libjasper\pgx\pgx_enc.obj ..\src\libjasper\pnm\pnm_cod.obj 
+      ..\src\libjasper\pnm\pnm_dec.obj ..\src\libjasper\pnm\pnm_enc.obj 
+      ..\src\libjasper\jpg\jpg_val.obj"/>
+    <RESFILES value="Project2.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value=""/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;..\src\appl;..\src\libjasper\jp2;..\src\libjasper\base;..\src\libjasper\bmp;..\src\libjasper\jpc;..\src\libjasper\jpg;..\src\libjasper\ras;..\src\libjasper\mif;..\src\libjasper\pgx;..\src\libjasper\pnm"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_NO_VCL;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="Project2.bpf"/>
+    <INCLUDEPATH value="..\src\libjasper\pnm;..\src\libjasper\pgx;..\src\libjasper\mif;..\src\libjasper\ras;..\src\libjasper\jpg;..\src\libjasper\jpc;..\src\libjasper\bmp;..\src\libjasper\base;..\src\libjasper\jp2;..\src\appl;$(BCB)\include;$(BCB)\include\vcl;D:\jpeg2000\jasper\src\libjasper\include"/>
+    <LIBPATH value="..\src\libjasper\pnm;..\src\libjasper\pgx;..\src\libjasper\mif;..\src\libjasper\ras;..\src\libjasper\jpg;..\src\libjasper\jpc;..\src\libjasper\bmp;..\src\libjasper\base;..\src\libjasper\jp2;..\src\appl;&quot;C:\Documents and Settings\user\Desktop\JPEG2000\jasper-1.900.1\jasper-1.900.1\bcb&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\src\libjasper\pnm -I..\src\libjasper\pgx -I..\src\libjasper\mif 
+      -I..\src\libjasper\ras -I..\src\libjasper\jpg -I..\src\libjasper\jpc 
+      -I..\src\libjasper\bmp -I..\src\libjasper\base -I..\src\libjasper\jp2 
+      -I..\src\appl -I$(BCB)\include -I$(BCB)\include\vcl 
+      -ID:\jpeg2000\jasper\src\libjasper\include -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -tWC 
+      -tWM -c"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -ap -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0x32.obj $(PACKAGES) $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cw32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project2.res" FORMNAME="" UNITNAME="Project2.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project2.bpf" FORMNAME="" UNITNAME="Project2" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.c" FORMNAME="" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\appl\jasper.c" FORMNAME="" UNITNAME="jasper" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_cm.h" FORMNAME="" UNITNAME="jas_cm.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_config2.h" FORMNAME="" UNITNAME="jas_config2.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_config.h" FORMNAME="" UNITNAME="jas_config.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_config.h.in" FORMNAME="" UNITNAME="jas_config.h.in" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_debug.h" FORMNAME="" UNITNAME="jas_debug.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_fix.h" FORMNAME="" UNITNAME="jas_fix.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_getopt.h" FORMNAME="" UNITNAME="jas_getopt.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_icc.h" FORMNAME="" UNITNAME="jas_icc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_image.h" FORMNAME="" UNITNAME="jas_image.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_init.h" FORMNAME="" UNITNAME="jas_init.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_malloc.h" FORMNAME="" UNITNAME="jas_malloc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_math.h" FORMNAME="" UNITNAME="jas_math.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_seq.h" FORMNAME="" UNITNAME="jas_seq.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_stream.h" FORMNAME="" UNITNAME="jas_stream.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_string.h" FORMNAME="" UNITNAME="jas_string.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_tmr.h" FORMNAME="" UNITNAME="jas_tmr.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_tvp.h" FORMNAME="" UNITNAME="jas_tvp.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_types.h" FORMNAME="" UNITNAME="jas_types.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jas_version.h" FORMNAME="" UNITNAME="jas_version.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\jasper.h" FORMNAME="" UNITNAME="jasper.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\Makefile.am" FORMNAME="" UNITNAME="Makefile.am" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\include\jasper\Makefile.in" FORMNAME="" UNITNAME="Makefile.in" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jp2\jp2_enc.c" FORMNAME="" UNITNAME="jp2_enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jp2\jp2_cod.c" FORMNAME="" UNITNAME="jp2_cod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jp2\jp2_cod.h" FORMNAME="" UNITNAME="jp2_cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jp2\jp2_dec.c" FORMNAME="" UNITNAME="jp2_dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jp2\jp2_dec.h" FORMNAME="" UNITNAME="jp2_dec.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_version.c" FORMNAME="" UNITNAME="jas_version.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_cm.c" FORMNAME="" UNITNAME="jas_cm.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_debug.c" FORMNAME="" UNITNAME="jas_debug.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_getopt.c" FORMNAME="" UNITNAME="jas_getopt.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_icc.c" FORMNAME="" UNITNAME="jas_icc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_iccdata.c" FORMNAME="" UNITNAME="jas_iccdata.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_image.c" FORMNAME="" UNITNAME="jas_image.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_init.c" FORMNAME="" UNITNAME="jas_init.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_malloc.c" FORMNAME="" UNITNAME="jas_malloc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_seq.c" FORMNAME="" UNITNAME="jas_seq.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_stream.c" FORMNAME="" UNITNAME="jas_stream.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_string.c" FORMNAME="" UNITNAME="jas_string.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_tmr.c" FORMNAME="" UNITNAME="jas_tmr.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\base\jas_tvp.c" FORMNAME="" UNITNAME="jas_tvp.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\bmp\bmp_enc.h" FORMNAME="" UNITNAME="bmp_enc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\bmp\bmp_cod.c" FORMNAME="" UNITNAME="bmp_cod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\bmp\bmp_cod.h" FORMNAME="" UNITNAME="bmp_cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\bmp\bmp_dec.c" FORMNAME="" UNITNAME="bmp_dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\bmp\bmp_enc.c" FORMNAME="" UNITNAME="bmp_enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_util.h" FORMNAME="" UNITNAME="jpc_util.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_bs.c" FORMNAME="" UNITNAME="jpc_bs.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_bs.h" FORMNAME="" UNITNAME="jpc_bs.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_cod.h" FORMNAME="" UNITNAME="jpc_cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_cs.c" FORMNAME="" UNITNAME="jpc_cs.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_cs.h" FORMNAME="" UNITNAME="jpc_cs.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_dec.c" FORMNAME="" UNITNAME="jpc_dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_dec.h" FORMNAME="" UNITNAME="jpc_dec.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_enc.c" FORMNAME="" UNITNAME="jpc_enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_enc.h" FORMNAME="" UNITNAME="jpc_enc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_fix.h" FORMNAME="" UNITNAME="jpc_fix.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_flt.h" FORMNAME="" UNITNAME="jpc_flt.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_math.c" FORMNAME="" UNITNAME="jpc_math.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_math.h" FORMNAME="" UNITNAME="jpc_math.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_mct.c" FORMNAME="" UNITNAME="jpc_mct.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_mct.h" FORMNAME="" UNITNAME="jpc_mct.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_mqcod.c" FORMNAME="" UNITNAME="jpc_mqcod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_mqcod.h" FORMNAME="" UNITNAME="jpc_mqcod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_mqdec.c" FORMNAME="" UNITNAME="jpc_mqdec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_mqdec.h" FORMNAME="" UNITNAME="jpc_mqdec.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_mqenc.c" FORMNAME="" UNITNAME="jpc_mqenc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_mqenc.h" FORMNAME="" UNITNAME="jpc_mqenc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_qmfb.c" FORMNAME="" UNITNAME="jpc_qmfb.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_qmfb.h" FORMNAME="" UNITNAME="jpc_qmfb.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t1cod.c" FORMNAME="" UNITNAME="jpc_t1cod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t1cod.h" FORMNAME="" UNITNAME="jpc_t1cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t1dec.c" FORMNAME="" UNITNAME="jpc_t1dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t1dec.h" FORMNAME="" UNITNAME="jpc_t1dec.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t1enc.c" FORMNAME="" UNITNAME="jpc_t1enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t1enc.h" FORMNAME="" UNITNAME="jpc_t1enc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t2cod.c" FORMNAME="" UNITNAME="jpc_t2cod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t2cod.h" FORMNAME="" UNITNAME="jpc_t2cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t2dec.c" FORMNAME="" UNITNAME="jpc_t2dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t2dec.h" FORMNAME="" UNITNAME="jpc_t2dec.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t2enc.c" FORMNAME="" UNITNAME="jpc_t2enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_t2enc.h" FORMNAME="" UNITNAME="jpc_t2enc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_tagtree.c" FORMNAME="" UNITNAME="jpc_tagtree.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_tagtree.h" FORMNAME="" UNITNAME="jpc_tagtree.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_tsfb.c" FORMNAME="" UNITNAME="jpc_tsfb.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_tsfb.h" FORMNAME="" UNITNAME="jpc_tsfb.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpc\jpc_util.c" FORMNAME="" UNITNAME="jpc_util.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_val.c" FORMNAME="" UNITNAME="jpg_val.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_cod.h" FORMNAME="" UNITNAME="jpg_cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_dec.c" FORMNAME="" UNITNAME="jpg_dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_dummy.c" FORMNAME="" UNITNAME="jpg_dummy.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_enc.c" FORMNAME="" UNITNAME="jpg_enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_enc.h" FORMNAME="" UNITNAME="jpg_enc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_jpeglib.h" FORMNAME="" UNITNAME="jpg_jpeglib.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\ras\ras_enc.h" FORMNAME="" UNITNAME="ras_enc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\ras\ras_cod.c" FORMNAME="" UNITNAME="ras_cod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\ras\ras_cod.h" FORMNAME="" UNITNAME="ras_cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\ras\ras_dec.c" FORMNAME="" UNITNAME="ras_dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\ras\ras_enc.c" FORMNAME="" UNITNAME="ras_enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\mif\mif_cod.h" FORMNAME="" UNITNAME="mif_cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\mif\mif_cod.c" FORMNAME="" UNITNAME="mif_cod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pgx\pgx_enc.h" FORMNAME="" UNITNAME="pgx_enc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pgx\pgx_cod.c" FORMNAME="" UNITNAME="pgx_cod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pgx\pgx_cod.h" FORMNAME="" UNITNAME="pgx_cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pgx\pgx_dec.c" FORMNAME="" UNITNAME="pgx_dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pgx\pgx_enc.c" FORMNAME="" UNITNAME="pgx_enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pnm\pnm_enc.h" FORMNAME="" UNITNAME="pnm_enc.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pnm\pnm_cod.c" FORMNAME="" UNITNAME="pnm_cod.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pnm\pnm_cod.h" FORMNAME="" UNITNAME="pnm_cod.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pnm\pnm_dec.c" FORMNAME="" UNITNAME="pnm_dec.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\pnm\pnm_enc.c" FORMNAME="" UNITNAME="pnm_enc.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_val.obj" FORMNAME="" UNITNAME="jpg_val.obj" CONTAINERID="OBJTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\src\libjasper\jpg\jpg_jpeglib.~h" FORMNAME="" UNITNAME="jpg_jpeglib.~h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=..\src\libjasper\pnm;..\src\libjasper\pgx;..\src\libjasper\mif;..\src\libjasper\ras;..\src\libjasper\jpg;..\src\libjasper\jpc;..\src\libjasper\bmp;..\src\libjasper\base;..\src\libjasper\jp2;..\src\appl;$(BCB)\include;$(BCB)\include\vcl;D:\jpeg2000\jasper\src\libjasper\include
+Item1=..\src\appl;$(BCB)\include;$(BCB)\include\vcl;D:\jpeg2000\jasper\src\libjasper\include
+Item2=..\src\appl;C:\Documents and Settings\user\Desktop\JPEG2000\jasper-1.900.1\jasper-1.900.1\bcb;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=..\src\libjasper\pnm;..\src\libjasper\pgx;..\src\libjasper\mif;..\src\libjasper\ras;..\src\libjasper\jpg;..\src\libjasper\jpc;..\src\libjasper\bmp;..\src\libjasper\base;..\src\libjasper\jp2;..\src\appl;C:\Documents and Settings\user\Desktop\JPEG2000\jasper-1.900.1\jasper-1.900.1\bcb;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\src\appl;C:\Documents and Settings\user\Desktop\JPEG2000\jasper-1.900.1\jasper-1.900.1\bcb;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
